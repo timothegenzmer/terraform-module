@@ -1,4 +1,4 @@
 variable "password" {
-  type = string
+  type        = string
   description = "Database Password"
 }

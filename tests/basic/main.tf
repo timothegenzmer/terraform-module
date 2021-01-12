@@ -1,4 +1,4 @@
 module "test" {
-  source = "../../"
+  source   = "../../"
   password = "testtesttest"
 }
