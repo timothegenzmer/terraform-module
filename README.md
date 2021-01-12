@@ -26,3 +26,14 @@ Terraform module
 No output.
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+# Development
+
+## Installation
+
+Install pre-commit
+```
+brew tap liamg/tfsec
+brew install pre-commit gawk terraform-docs tflint tfsec coreutils
+pre-commit install
+```
